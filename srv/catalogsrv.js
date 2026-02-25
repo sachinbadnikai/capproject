@@ -10,6 +10,6 @@ module.exports = srv =>{
   SELECT.from(Test).where({ ID })
 ); 
         console.log("*****************************",result1)
-        erre
+        erre sachin
     })
 }
