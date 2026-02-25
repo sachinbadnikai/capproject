@@ -9,6 +9,6 @@ module.exports = srv =>{
          result = await cds.db.run(
   SELECT.from(Test).where({ ID })
 ); 
-        console.log("*****************************",results)
+        console.log("*****************************",result)
     })
 }
