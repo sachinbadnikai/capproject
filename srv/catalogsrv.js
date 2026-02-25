@@ -10,5 +10,7 @@ module.exports = srv =>{
   SELECT.from(Test).where({ ID })
 ); 
         console.log("*****************************",results)
+        console.log("*****************************",results)
+
     })
 }
