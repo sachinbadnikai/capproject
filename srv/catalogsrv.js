@@ -11,5 +11,11 @@ module.exports = srv =>{
 ); 
         console.log("*****************************",result1)
         emp sachin badnikai removed
+        emp sachin badnikai removed
+
+        emp sachin badnikai removed
+
+        emp sachin badnikai removed
+
     })
 }
