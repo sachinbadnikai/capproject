@@ -1,0 +1,39 @@
+@server=http://localhost:4004
+@username=alice
+@password=
+
+
+### TestSet
+GET http://localhost:4004/odata/v4/test/TestSet(ID='550e8400-e29b-41d4-a716-446655440000')
+
+
+
+### TestSet
+# @name TestSet_POST
+POST {{server}}/odata/v4/test/TestSet
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "9325348e-f32c-4ead-96c5-bcccac6c2a93",
+  "name": "name-9325348"
+}
+
+
+### TestSet
+# @name TestSet_PATCH
+PATCH {{server}}/odata/v4/test/TestSet/9325348e-f32c-4ead-96c5-bcccac6c2a93
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "9325348e-f32c-4ead-96c5-bcccac6c2a93",
+  "name": "name-9325348"
+}
+
+
+### TestSet
+# @name TestSet_DELETE
+DELETE {{server}}/odata/v4/test/TestSet/9325348e-f32c-4ead-96c5-bcccac6c2a93
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
