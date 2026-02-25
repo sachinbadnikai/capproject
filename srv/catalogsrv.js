@@ -1,6 +1,10 @@
 const cds =require('@sap/cds');
 const { Test } = cds.entities; 
+SELECT.from(Test).where({ ID })
 
+SELECT.from(Test).where({ ID })
+
+SELECT.from(Test).where({ ID })
 module.exports = srv =>{
 
     srv.on('READ', 'TestSet', async(req)=>{
