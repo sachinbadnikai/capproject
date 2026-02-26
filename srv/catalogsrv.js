@@ -2,7 +2,6 @@ const cds =require('@sap/cds');
 const { Test } = cds.entities; 
 ***************sachin
 ***************sachin
-***************sachinkkkkkkkkkkkkkk
 module.exports = srv =>{
 *****************************************sachin
     srv.on('READ', 'TestSet', async(req)=>{
