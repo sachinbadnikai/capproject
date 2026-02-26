@@ -28,9 +28,6 @@ module.exports = srv =>{
 
         emp sachin badnikai removed
 
-        ndnf
-        fdfdsjhfb
-        dfdsfbb
-        dsdsds
+    
     })
 }
