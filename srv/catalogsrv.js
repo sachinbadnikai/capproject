@@ -16,6 +16,7 @@ module.exports = srv =>{
         asas  test8
         main main
         test7
+        test8
         const ID =req.data.ID;
          result = await cds.db.run(
   SELECT.from(Test).where({ ID })
