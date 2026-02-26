@@ -15,6 +15,7 @@ module.exports = srv =>{
         console.log("************************hello*****",req.params)
         asas 
         main main
+        test7
         const ID =req.data.ID;
          result = await cds.db.run(
   SELECT.from(Test).where({ ID })
